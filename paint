@@ -1,0 +1,12 @@
+function setup() {
+  createCanvas(1000, 1000);
+}
+
+function draw() {
+  if (mouseIsPressed) {
+    fill(170, 30, 90);
+  rect(mouseX-50, mouseY-50, 100, 100);
+  } else {
+    circle(0, 0, 0);
+  }
+}
